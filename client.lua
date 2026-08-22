@@ -441,11 +441,6 @@ local function syncLights(
     )
 end
 
-
---========================================================--
--- KEEP NATIVE SIRENS MUTED
---========================================================--
-
 CreateThread(function()
 
     while true do
@@ -709,7 +704,7 @@ CreateThread(function()
             Config.Keys.siren
         ) then
 
-            if not sirenOn then
+            if not sirenOn and lightsOn then
 
                 -- Starter altid på WAIL.
 
