@@ -4,6 +4,10 @@ A simple, standalone Emergency Lighting System for FiveM.
 
 LC ELS is designed to provide emergency lights, sirens and horn functionality without requiring a framework or vehicle-specific configuration.
 
+## Documentation
+
+Read it on [lc-development.com/docs](https://lc-development.com/docs/#/lc_els).
+
 ## Features
 
 - Standalone
